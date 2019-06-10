@@ -32,7 +32,7 @@ variable "dns_name" {
 
 variable "admin_username" {
   type    = string
-  default = "admin"
+  default = "aksadmin"
 }
 
 variable "ssh_key" {
