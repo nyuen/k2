@@ -1,0 +1,4 @@
+AzureDiagnostics
+| where Category == "kube-controller-manager"
+| where log_s contains "hello-kubernetes"
+| project log_s
