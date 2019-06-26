@@ -1,2 +1,2 @@
-docker build --build-arg=token=NjU0YTI1MWU2ZTk1 --no-cache -t aqua-demo .
+docker build --build-arg=token=YOUR_AQUA_TOKEN --no-cache -t aqua-demo .
 
